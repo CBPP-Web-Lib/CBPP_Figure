@@ -59,7 +59,7 @@ module.exports = function($) {
 
         if (location.hostname === "www.cbpp.org" ||
             location.hostname === "cbpp.org" ||
-            location.hostname === "apps.cbpp.org" ||
+            /(^|\.)apps\.cbpp\.org$/.test(location.hostname) || // apps.cbpp.org and its subdomains (Adobe no longer ties kits to domains)
             location.hostname === "www.cbpp-multimedia.org" ||
             location.hostname === "cbpp-multimedia.org" ||
             location.hostname === "nkaspraknode" ||

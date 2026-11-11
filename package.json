@@ -1,6 +1,6 @@
 {
   "name": "cbpp_figures",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Wrapper for CBPP graphics",
   "main": "cbpp_figures.js",
   "scripts": {
